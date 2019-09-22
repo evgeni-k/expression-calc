@@ -1,0 +1,22 @@
+{
+  "name": "expression-calc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evgeni-k/expression-calc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evgeni-k/expression-calc/issues"
+  },
+  "homepage": "https://github.com/evgeni-k/expression-calc#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
