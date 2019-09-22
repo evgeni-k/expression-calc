@@ -1,4 +1,4 @@
-const {operators} = require(`./operators`);
+const {isOperator} = require(`./operators`);
 
 function tokenize(expression) {
     const tokens = [];
@@ -9,7 +9,7 @@ function tokenize(expression) {
             continue;
         }
 
-        if (operators.has(el)) {
+        if (isOperator(el)) {
             if (currentOperand) {
                 tokens.push(currentOperand);
                 currentOperand = '';
